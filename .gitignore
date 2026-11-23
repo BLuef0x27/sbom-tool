@@ -1,0 +1,14 @@
+# Compiled binaries
+/sbom-tool
+bin/
+dist/
+
+# Generated SBOM artifacts (default output names)
+sbom.cdx.json
+sbom.spdx.json
+vulns.json
+
+# Editor and OS noise
+.DS_Store
+*.log
+*.swp

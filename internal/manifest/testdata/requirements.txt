@@ -1,0 +1,10 @@
+# pinned dependencies for the demo service
+requests==2.31.0
+numpy==1.26.4 ; python_version >= "3.9"
+Django>=4.2.11
+Flask~=3.0
+urllib3==2.2.1  # pinned with an inline comment
+click
+
+-r requirements-dev.txt
+--index-url https://example.com/simple
